@@ -18,9 +18,12 @@
         crossorigin="anonymous"></script> -->
 </head>
 
-<body onload="render()">
-    <h1>Tic-Tac-Toe</h1>
+<body onload="init()">
+    <h1><span class="color-blue">Tic-</span><span class="color-red">Tac-</span><span class="color-blue">Toe</span></h1>
     <div id="content"></div>
+    <div id="restart">
+        <button class="restart-btn color-red" onclick="resetGame()">Erneut spielen</button>
+    </div>
 
     <!-- JS Sheet -->
     <script src="script.js"></script>
